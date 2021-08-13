@@ -1,0 +1,92 @@
+<!-- This is the Cloudiness Page -->
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather Visualizations Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  
+      <link rel="stylesheet" href="./Assets/CSS/styles.css">
+
+  <title> Weather Cloudiness Graph</title>
+</head>
+
+<body>
+
+  <!-- Start of NAVBAR -->
+      
+        <nav class="navbar navbar-expand-lg navbar-light bg-light"></nav>  
+          <div class="navigation">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" style="background-color: #50e2db;" href="index.html">Latitude</a>
+                <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="Plot_Max_Temp.html">Max Temp</a>
+                <a class="dropdown-item" href="Plot_Humid.html">Humidity</a>
+                <a class="dropdown-item" href="Plot_Cloud.html">Cloudiness</a>
+                <a class="dropdown-item" href="Plot_Wind.html">Wind Speed</a>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comparison.html">Comparasion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Data.html">Data</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Content Section -->  
+<div class="container">
+  <div class="row">
+  <div class="col-lg-7 col-md-12">
+      <!-- Left box -->
+  <div class="box">
+  <h3 class="title">Cloudiness Weather Informaton</h3> 
+  <hr>
+  <p>
+  <img src="Images\LAT VS CLOUD.png" class="vizualization rounded float-left" alt="Cloudiness Graph">     
+  The purpose of this project was to analyze how weather changes as we get closer to the equator. To accomplish this analysis, I first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.
+  </p>  
+  <p>After assembling the dataset, I used Matplotlib to plot various aspects of the weather vs. latitude. Factors I looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations observed.</p> 
+  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+      Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the
+      source data and visualizations created as part of the analysis, as well as explanations and descriptions of
+      any trends and correlations witnessed.</p>    
+  </div>
+  </div>
+  <div class="col-lg-5 col-md-12">
+      <!-- Right box -->
+  <div class="box">
+
+  
+  
+
+  <!-- End of NAVBAR -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
