@@ -84,11 +84,11 @@ This section contains screenshots of each page that must be built, at varying sc
 
 Large screen:
 
-![Landing page large screen](Images/landingResize.png)
+![Landing page large screen](visualizations/landingResize.png)
 
 Small screen:
 
-![Landing page small screen](Images/landing-sm.png)
+![Landing page small screen](/visualizations/landing-sm.png)
 ￼
 
 #### <a id="comparisons-page"></a>Comparisons page
@@ -99,7 +99,7 @@ Large screen:
 
 Small screen:
 
-![comparison page small screen](Images/comparison-sm.png)
+![comparison page small screen](visualizations/comparison-sm.png)
 
 #### <a id="data-page"></a>Data page
 
@@ -110,7 +110,7 @@ Large screen:
 
 Small screen:
 
-![data page small screen](Images/data-sm.png)
+![data page small screen](visualizations/data-sm.png)
 
 #### <a id="visualization-pages"></a>Visualization pages
 
@@ -118,7 +118,7 @@ You'll build four of these, one for each visualization. Here's an example of one
 
 Large screen:
 
-![visualize page large screen](Images/visualize-lg.png)
+![visualize page large screen](visualizations/visualize-lg.png)
 
 Small screen:
 
@@ -127,10 +127,10 @@ Small screen:
 #### <a id="navigation-menu"></a>Navigation menu
 
 Large screen:
-![nav menu large screen](Images/nav-lg.png)
+![nav menu large screen](visualizations/nav-lg.png)
 
 Small screen:
-![nav menu small screen](Images/nav-sm.png)
+![nav menu small screen](visualizations/nav-sm.png)
 
 ## Rubric
 
